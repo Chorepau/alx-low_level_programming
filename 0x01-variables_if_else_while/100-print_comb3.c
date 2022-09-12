@@ -1,4 +1,4 @@
-nclude <stdio.h>
+#include <stdio.h>
 
 #include <unistd.h>
 
@@ -23,7 +23,6 @@ for (i = '0'; i <= '9'; i++)
 
 if (c < i)
 {
-
 putchar(c);
 putchar(i);
 
