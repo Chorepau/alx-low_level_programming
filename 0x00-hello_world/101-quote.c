@@ -1,6 +1,5 @@
-@@ -7,7 +7,7 @@
-
- */
+#include <stdio.h>
+/*
 
  int main(void)
 {
