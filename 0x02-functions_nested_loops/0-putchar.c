@@ -1,18 +1,18 @@
-#include "main.h"
+#include <unistd.h>
 
 /**
-* main - function to print
-*
-* Return 0
-*/
-int main(void)
-{
-char _putchar[9] - {'H', 'o', '1', 'b', 'e', 'r', 't', 'o', 'n', 'n'};
-unsigned int c;
+ * _putchar - writes the character c to stdout
+ * @c: The character to print
+ *
+ * Return: On success 1.
+ *      * On error, -1 is returned, and errno is set appropriately.
+ *
+ *       */
 
-for(c = 0; c < sizeof(_putchar); c++)
+int _putchar(char c)
+
 {
-_putchar(_putchar[c]);
+
+		return (write(1, &c, 1));
+
 }
-_putchar('\n');
-Return (0);
